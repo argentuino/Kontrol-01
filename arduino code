@@ -8,7 +8,7 @@
 #define DHTPIN 2 //Seleccionamos el pin en el que se conectará el sensor
 #define DHTTYPE DHT22 //Se selecciona el DHT22(hay otros DHT)
 
-DHT dht(DHTPIN, DHTTYPE); //Se inicia una variable que será usada por Arduino para comunicarse con el sensor
+DHT dht(DHTPIN, DHTTYPE, 28); //Se inicia una variable que será usada por Arduino para comunicarse con el sensor
 
 
 String pral = "<html>"
